@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+<link rel="stylesheet" href="css/main.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet"> 
+
+
+  </head>
+  <body>
+    <div class="container">
+      <section class="card">
+        <header class="card__header">
+          <h1>Our Pricing</h1>
+          <div class="card__header__subtittle">
+            <p>Annually</p>
+            <img id="button__img" class="yearly__img"src="images/favicon-32x32.png" alt="">
+            <input type="button" class="yearly" id="changePrice" onclick="changeToMonthly()"/>
+            <p>Mounthly</p>
+          </div>
+        </header>
+        <div class="card__content">
+          <div class="card__content__basic">
+            <h3>Basic</h3>
+            <h1 id="basic">$199.99</h1>
+            <h4 class="basic__top">500 GB Storage</h4>
+            <h4>2 Users Allowed</h4>
+            <h4>Send up to 3 GB</h4>
+            <input class="button__learn" type="button" value="Learn More" />
+          </div>
+          <div class="card__content__professional">
+            <h3>Professional</h3>
+            <h1 id="professional">$249.99</h1>
+            <h4 class="professional__top">1 TB Storage</h4>
+            <h4>5 Users Allowed</h4>
+            <h4>Send up to 30 GB</h4>
+            <input class="button__learn__professional" type="button" value="Learn More" />
+          </div>
+          <div class="card__content__master">
+            <h3>Master</h3>
+            <h1 id="master">$399.99</h1>
+            <h4 class="master__top">2 TB Storage</h4>
+            <h4>10 Users Allowed</h4>
+            <h4>Send up to 20 GB</h4>
+            <input class="button__learn"type="button" value="Learn More" />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script type="text/javascript" src="javascript/script.js"></script>
+  </body>
+</html>
